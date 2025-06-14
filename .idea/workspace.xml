@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ab828e0-ca3d-4a45-a0b6-4444ae42c05f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/public/opengraph-image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/site-config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/types/assets.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/ia-startup-lp.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/next.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/next.config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcss.config.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/postcss.config.mjs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/lottie/click.lottie" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/lottie/click.lottie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/lottie/stars.lottie" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/lottie/stars.lottie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/assets/lottie/vroom.lottie" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/lottie/vroom.lottie" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/spectronlabs.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/globals.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/globals.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/opengraph-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/page.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/page.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/app/twitter-image.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/action-button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/action-button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/call-to-action.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/call-to-action.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/features.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/features.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/github-indicator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/github-indicator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/hero-section.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/hero-section.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/logo-ticker.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/logo-ticker.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/site-header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/site-header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/testimonials.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/testimonials.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/button.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/button.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/ui/sheet.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ui/sheet.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/lib/utils.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/lib/utils.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "MrInspection"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/MrInspection/ia-startup-landing-page.git",
+    "accountId": "54326445-647c-488a-8fc3-9bf89d92066d"
+  }
+}]]></component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 4
+}]]></component>
+  <component name="ProjectId" id="2yVIgo4iBi9jIO6xWjh8M8m3LYw" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "upgrade/nextjs-15-with-tailwind-v4",
+    "js.debugger.nextJs.config.created.client": "true",
+    "js.debugger.nextJs.config.created.server": "true",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/mouss/WebstormProjects/ia-startup-landing-page/public",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "npm.Next.js: server-side.executor": "Run",
+    "ts.external.directory.path": "C:\\Users\\mouss\\WebstormProjects\\ia-startup-landing-page\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="ReactDesignerToolWindowState">
+    <option name="myId2Visible">
+      <map>
+        <entry key="com.intellij.reactbuddy.reactComponents" value="false" />
+        <entry key="com.intellij.reactbuddy.reactInspector" value="false" />
+      </map>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mouss\WebstormProjects\ia-startup-landing-page\public" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.Next.js: server-side">
+    <configuration name="Next.js: debug client-side" type="JavascriptDebugType" uri="http://localhost:3000/">
+      <method v="2" />
+    </configuration>
+    <configuration name="Next.js: server-side" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ab828e0-ca3d-4a45-a0b6-4444ae42c05f" name="Changes" comment="" />
+      <created>1749913428214</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1749913428214</updated>
+      <workItem from="1749913429461" duration="2072000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/src/components/github-indicator.tsx</url>
+          <line>5</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

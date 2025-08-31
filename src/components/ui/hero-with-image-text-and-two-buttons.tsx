@@ -4,6 +4,7 @@ import { MoveRight, PhoneCall } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import Image from "next/image";
+import Link from "next/link"; // ✅ import Link from Next.js
 
 function Hero() {
   return (
@@ -13,11 +14,11 @@ function Hero() {
           {/* Left column - text */}
           <div className="flex flex-col gap-6 max-w-xl text-left">
             <Badge variant="outline" className="w-fit">
-              We&apos;re live!
+              We're live!
             </Badge>
 
             <h1 className="text-5xl md:text-7xl font-regular tracking-tighter">
-              NMIT&apos;s Formula Student Team
+              NMIT's Formula Student Team
             </h1>
 
             <p className="text-xl leading-relaxed tracking-tight text-muted-foreground">
@@ -31,9 +32,13 @@ function Hero() {
               <Button size="lg" className="gap-2" variant="outline">
                 Learn More <PhoneCall className="w-4 h-4" />
               </Button>
-              <Button size="lg" className="gap-2">
-                Apply Now <MoveRight className="w-4 h-4" />
-              </Button>
+
+              {/* ✅ Wrap Apply Now with Next.js Link */}
+              <Link href="/application-form" passHref>
+                <Button size="lg" className="gap-2">
+                  Apply Now <MoveRight className="w-4 h-4" />
+                </Button>
+              </Link>
             </div>
           </div>
 

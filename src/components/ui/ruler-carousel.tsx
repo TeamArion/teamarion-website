@@ -220,7 +220,9 @@ export function RulerCarousel({
               return (
                 <motion.button
                   key={item.id}
-                  ref={(el) => (itemRefs.current[index] = el)}
+                  ref={(el) => {
+                      itemRefs.current[index] = el;
+                    }}
                   onClick={() => handleItemClick(index)}
                   className={`text-4xl md:text-6xl font-bold whitespace-nowrap cursor-pointer flex items-center justify-center ${
                     isActive

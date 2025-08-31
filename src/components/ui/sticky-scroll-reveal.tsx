@@ -44,7 +44,9 @@ export const StickyScroll = ({ content }: { content: StickyScrollItem[] }) => {
         {content.map((item, index) => (
           <div
             key={item.title}
-            ref={(el) => (itemRefs.current[index] = el)}
+            ref={(el) => {
+                itemRefs.current[index] = el
+              }}
             data-index={index}
             className="my-32"
           >

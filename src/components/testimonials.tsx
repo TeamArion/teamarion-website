@@ -36,7 +36,7 @@ const TESTIMONIALS = [
   text: string,
   name: string,
   position: string,
-  avatarImg: StaticImageData
+  avatarImg: string | StaticImageData
 }>
 
 export function Testimonials() {

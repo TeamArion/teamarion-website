@@ -17,7 +17,7 @@ function Hero() {
             </Badge>
 
             <h1 className="text-5xl md:text-7xl font-regular tracking-tighter">
-              NMIT's Formula Student Team
+              NMIT&apos;s Formula Student Team
             </h1>
 
             <p className="text-xl leading-relaxed tracking-tight text-muted-foreground">

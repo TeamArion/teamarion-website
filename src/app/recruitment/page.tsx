@@ -3,7 +3,6 @@ import SiteHeader from "@/components/site-header";
 import Clients from "@/components/ui/logo-grid";
 import { Hero } from "@/components/ui/hero-with-image-text-and-two-buttons";
 import { Feature } from "@/components/ui/feature-section-with-grid"
-import {LogoTicker} from "@/components/logo-ticker";
 import { RulerCarousel, type CarouselItem } from "@/components/ui/ruler-carousel";
 
 

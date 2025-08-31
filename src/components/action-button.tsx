@@ -1,18 +1,35 @@
-import {HTMLAttributes} from "react";
+"use client";
 
-type ActionButtonProps = Omit<HTMLAttributes<HTMLButtonElement>, "className"> & {
-  label: string
+import * as React from "react";
+import { cn } from "@/lib/utils";
+
+interface ActionButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
+  label: string;
 }
 
-export function ActionButton({label, ...props}: ActionButtonProps) {
+/**
+ * Flexible CTA button.
+ * - Accepts `className` to style per context (e.g., frosted vs glassy).
+ * - Pass any normal button props (`onClick`, `disabled`, etc.).
+ */
+export function ActionButton({
+  label,
+  className,
+  ...props
+}: ActionButtonProps) {
   return (
-    <button className="relative py-2 px-3 rounded-lg font-medium text-sm bg-linear-to-b from-[#190d2e] to-[#4a208a] shadow-[0px_0px_12px_#8c45ff] cursor-pointer" {...props}>
-      <div className="absolute inset-0 rounded-lg">
-        <div className="absolute inset-0 border rounded-lg border-white/20 mask-[linear-gradient(to_bottom,black,transparent)]"/>
-        <div className="absolute inset-0 border rounded-lg border-white/40 mask-[linear-gradient(to_top,black,transparent)]"/>
-        <div className="absolute inset-0 rounded-lg shadow-[0_0_10px_rgb(140,69,255,0.7)_inset]"/>
-      </div>
-      <span>{label}</span>
+    <button
+      type="button"
+      {...props}
+      className={cn(
+        "relative inline-flex items-center justify-center select-none",
+        "text-sm font-medium rounded-md",
+        "transition-colors duration-200",
+        className
+      )}
+    >
+      {label}
     </button>
-  )
+  );
 }

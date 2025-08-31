@@ -6,7 +6,6 @@ import {Testimonials} from "@/components/testimonials";
 import SiteFooter from "@/components/site-footer";
 import SiteHeader from "@/components/site-header";
 import CardCaroursalDemo from "@/components/team-carousel";
-import { WobbleCard } from "@/components/ui/wobble-card";
 import { WobbleCardDemo } from "@/components/beyond-fs";
 
 export default function Home() {

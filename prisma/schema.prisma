@@ -1,0 +1,42 @@
+// prisma/schema.prisma
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model Application {
+  id              String   @id @default(cuid())
+  createdAt       DateTime @default(now())
+  regNo           String   @unique
+
+  // Personal
+  name            String
+  email           String
+  usn             String
+  phone           String
+
+  // Academics
+  branch          String
+  year            String
+
+  // Interests / Motivation
+  motivation      String
+  verticals       String[]
+  questionTypes   String[]
+
+  // Residence
+  residenceType   String
+
+  // Extras
+  experience      String?
+  resumeUrl       String?
+  links           String?
+
+  // Consents
+  gdprConsent     Boolean
+  termsConsent    Boolean
+}

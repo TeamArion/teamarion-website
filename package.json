@@ -12,6 +12,7 @@
     "ts": "tsc --noEmit"
   },
   "dependencies": {
+    "@prisma/client": "^6.15.0",
     "@radix-ui/react-checkbox": "^1.3.3",
     "@radix-ui/react-icons": "^1.3.2",
     "@radix-ui/react-label": "^2.1.7",
@@ -41,6 +42,7 @@
     "eslint": "^9",
     "eslint-config-next": "15.3.3",
     "postcss": "^8",
+    "prisma": "^6.15.0",
     "tailwindcss": "^4.1.10",
     "tw-animate-css": "^1.3.0",
     "typescript": "^5"

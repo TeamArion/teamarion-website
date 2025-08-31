@@ -59,11 +59,13 @@ export default function SiteHeader() {
 
             {/* Right: CTA */}
             <div className="justify-self-end">
-              <button
-                className="h-9 rounded-full bg-white/15 px-4 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-white/20 backdrop-blur-sm hover:bg-white/25 transition-colors"
-              >
-                Join Us
-              </button>
+              <Link href="/recruitment">
+                <button
+                  className="h-9 rounded-full bg-white/15 px-4 text-sm font-semibold text-white shadow-sm ring-1 ring-inset ring-white/20 backdrop-blur-sm hover:bg-white/25 transition-colors"
+                >
+                  Join Us
+                </button>
+              </Link>
             </div>
           </div>
         </div>
